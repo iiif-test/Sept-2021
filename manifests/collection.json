@@ -1,0 +1,13 @@
+{
+  "id" : "https://iiif-test.github.io/Sept-2021/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in iiif-test/Sept-2021 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://iiif-test.github.io/Sept-2021/manifests/jane.json",
+    "label" : "Photographs from the Royal Conservatoire of Scotland"
+  } ]
+}
