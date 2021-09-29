@@ -1,0 +1,101 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://iiif-test.github.io/Sept-2021/manifests/jane.json",
+  "@type" : "sc:Manifest",
+  "label" : "Photographs from the Royal Conservatoire of Scotland",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://1735a12e-7501-4569-913a-2a1737c01670",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://03923da1-9c86-4fc7-9b91-4127f9f18bac",
+      "@type" : "sc:Canvas",
+      "label" : "College of Dramatic Art",
+      "height" : 2412,
+      "width" : 1740,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://77dfdd1e-3edb-4c98-85d0-a26f40ceb45a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/college-of-dramatic-art-building-1950s/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/college-of-dramatic-art-building-1950s",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2412,
+          "width" : 1740
+        },
+        "on" : "http://03923da1-9c86-4fc7-9b91-4127f9f18bac"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://44d1422b-20f0-4e7c-a2fb-866ecca5391d",
+      "@type" : "sc:Canvas",
+      "label" : "Old Athenaeum Dining Room",
+      "height" : 1818,
+      "width" : 2484,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://33888530-d84b-4031-b5be-41517a125c24",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/college-dining-room-in-the-old-athenaeum-building-c-1910/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/college-dining-room-in-the-old-athenaeum-building-c-1910",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1818,
+          "width" : 2484
+        },
+        "on" : "http://44d1422b-20f0-4e7c-a2fb-866ecca5391d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0911af0f-5215-4d2a-acea-7593bdd463da",
+      "@type" : "sc:Canvas",
+      "label" : "Old Athenaeum Library",
+      "height" : 2832,
+      "width" : 2223,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7be9a991-ad3f-44e7-bdcd-a1bdf7a8d66a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/old-glasgow-athenaeum-library-1960s-1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/old-glasgow-athenaeum-library-1960s-1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2832,
+          "width" : 2223
+        },
+        "on" : "http://0911af0f-5215-4d2a-acea-7593bdd463da"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
