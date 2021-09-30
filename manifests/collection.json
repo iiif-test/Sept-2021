@@ -9,9 +9,5 @@
     "@type" : "sc:Manifest",
     "@id" : "https://iiif-test.github.io/Sept-2021/manifests/jane.json",
     "label" : "Photographs from the Royal Conservatoire of Scotland"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://iiif-test.github.io/Sept-2021/manifests/manifest2.json",
-    "label" : "Glen's fantastic September 2021 Manifest"
   } ]
 }
